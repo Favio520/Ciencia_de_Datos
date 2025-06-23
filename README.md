@@ -16,11 +16,17 @@ una vez en el menu podemos elegir cualquier modelo o todos de los cuales nos ent
 Ejecucion mediante Notebooks .ipynb
 
 Para el notebook de los modelos tipo ARIMA:
+
 !pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
+
 Para el notebook de los modelos tipo LSTM:
+
 !pip install pandas numpy matplotlib seaborn statsmodels scikit-learn tensorflow keras-tuner
+
 Para el notebook de los modelos tipo PROPHET:
+
 !pip install pandas numpy prophet scikit-learn matplotlib seaborn statsmodels
+
 En el caso de no usar anaconda instalar (install -c conda-forge prophet)
 
 Todos los modelos se encuentran desarrollados en notebooks y para ejecutarlos podemos hacer uso de alguna herramienta como jupyter notebook o google colab 
